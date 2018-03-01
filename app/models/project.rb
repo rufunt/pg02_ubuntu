@@ -1,2 +1,3 @@
-class Project < ActiveRecord::Base
+class Project < ActiveRecord::
+  has_many :tasks
 end
